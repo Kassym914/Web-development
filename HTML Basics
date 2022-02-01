@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Website</title>
+    </head>
+    <body>
+    <h1>New website!</h1>
+    <h2>About my web</h2>
+    <p>Actually, this website is created just for lyrics of my new song</p>
+    <p>I have a pen <br>
+       I have an apple<br>
+       uhh, applepen!
+    </p>
+    
+    
+    </body>
+</html>
