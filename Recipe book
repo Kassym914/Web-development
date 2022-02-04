@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1{
+            color: green;
+            background: rgb(232, 204, 232);
+        }
+        .some-points{
+            color: rgb(23, 97, 70);
+        }
+        #Recipe1{
+            color: rgb(173, 173, 29);
+            background: rgb(69, 62, 61);
+        }
+        #Recipe2{
+            color: rgb(201, 167, 32);
+            background: rgb(69, 62, 61);
+        }
+        body{
+            background-color: rgb(214, 214, 214);
+        }
+        
+        thead{
+            color: rgb(219, 184, 184);
+            background-color: rgb(59, 36, 8);
+        }
+        tbody{
+            color: rgb(250, 250, 250);
+            background-color: rgb(48, 26, 48);
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1>Kassym's Recipe Book</h1>
+        
+        <h2 class = "some-points">Contents:</h2>
+        
+        <ol>
+            <li><a href="#Recipe1">Recipe #1</a></li>
+            <li><a href="#Recipe2">Recipe #2</a></li>
+        </ol>
+        
+        <h2 id="Recipe1">Student's dinner</h2>
+        
+        <ul>
+            <li>Time: 2 hours</li>
+            <li>Serves: 3 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>preparing time</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+            <tr>
+                <td>onion</td>
+                <td>200 g  </td>
+                <td> 15 mins</td>
+                
+             </tr>
+
+                <tr>
+                <td>carrot</td>
+                <td>100g </td>
+                <td> 3 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>meat</td>
+                <td>1 kg</td>
+                <td> 5 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>spices</td>
+                <td>10 g</td>
+                <td> - </td>
+                
+             </tr>
+                          <tr>
+                <td>potato</td>
+                <td>500 g</td>
+                <td> 10 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>water</td>
+                <td>500 ml</td>
+                <td> 0.5h </td>
+                
+             </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> put onion in the hot pan and wait untill it becomes yellow.
+</p>
+        <p><strong>Step 2:</strong> add a carrot and wait untill it becomes soft. 
+</p>
+        <p><strong>Step3 :</strong>add meat for 5 mins
+</p>
+        <p><strong>Step 4:</strong> add potato and fry for 10 mins 
+</p>
+        <p><strong>Step 5:</strong> add water and close the pan. Wait 30 mins and then you can eat it. 
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Deep-fried_Potatoes_-_Kolkata_2011-02-15_1405.JPG/274px-Deep-fried_Potatoes_-_Kolkata_2011-02-15_1405.JPG" alt = "error"> 
+
+
+    <p><em>Source: <a href="https://hi-chef.ru/recipe/13089-zharkoe">Some recipes websites</a></em></p>
+    
+    
+    
+    
+               <h2 id="Recipe2">Beshbarmak</h2>
+        
+        <ul>
+            <li>Time: 6 hours</li>
+            <li>Serves: whole family </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>preparing time</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                <td>water</td>
+                <td>6L</td>
+                <td> 6h </td>
+                
+             </tr>
+            <tr>
+                <td>meat</td>
+                <td>1kg  </td>
+                <td> 4h</td>
+                
+             </tr>
+
+                <tr>
+                <td>carrot</td>
+                <td>100g </td>
+                <td> 4h</td>
+                
+             </tr>
+                          <tr>
+                <td>onion</td>
+                <td>250g </td>
+                <td> 1h </td>
+                
+             </tr>
+
+                          <tr>
+                <td>potato</td>
+                <td>500 g</td>
+                <td> 1h </td>
+                
+             </tr>
+
+
+                          <tr>
+                <td>dough</td>
+                <td>2kg</td>
+                <td> 30 min </td>
+                
+             </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong>put meat into the water and cook it for 4 hours. 
+</p>
+        <p><strong>Step 2:</strong> add a carrot.
+</p>
+        <p><strong>Step3 :</strong>add carrot and onion into saucepan with meat and wait 4 hours.
+</p>
+        <p><strong>Step 4:</strong> add potato and reduce the fire. </p>
+        <p><strong>Step 5:</strong> remove all previous ingridients and add dough, when you feel that it is ready. 
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/e/e0/%D0%91%D0%B5%D1%88%D0%B1%D0%B0%D1%80%D0%BC%D0%B0%D0%BA.jpg/170px-%D0%91%D0%B5%D1%88%D0%B1%D0%B0%D1%80%D0%BC%D0%B0%D0%BA.jpg" alt ="error"> 
+    <p><em>Source: <a href="https://gotovim-doma.ru/recipe/957-beshbarmak">Some recipes websites</a></em></p>
+    
+    
+
+               <h2 id="Recipe2">backwheat</h2>
+        
+        <ul>
+            <li>Time: 6 hours</li>
+            <li>Serves: whole family </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>preparing time</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+            <tr>
+                <td>onion</td>
+                <td>200 g  </td>
+                <td> 15 mins</td>
+                
+             </tr>
+
+                <tr>
+                <td>carrot</td>
+                <td>100g </td>
+                <td> 3 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>meat</td>
+                <td>1 kg</td>
+                <td> 5 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>spices</td>
+                <td>10 g</td>
+                <td> - </td>
+                
+             </tr>
+                          <tr>
+                <td>potato</td>
+                <td>500 g</td>
+                <td> 10 mins</td>
+                
+             </tr>
+                                       <tr>
+                <td>backwheat</td>
+                <td>500 g</td>
+                <td> 10 mins</td>
+                
+             </tr>
+                          <tr>
+                <td>water</td>
+                <td>500 ml</td>
+                <td> 0.5h </td>
+                
+             </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> put onion in the hot pan and wait untill it becomes yellow.
+</p>
+        <p><strong>Step 2:</strong> add a carrot and wait untill it becomes soft. 
+</p>
+        <p><strong>Step3 :</strong>add meat for 5 mins
+</p>
+        <p><strong>Step 4:</strong> add potato with backwheat and fry for 10 mins 
+</p>
+        <p><strong>Step 5:</strong> add water and close the pan. Wait 30 mins and then you can eat it. 
+</p>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%D0%93%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F_%D0%BA%D0%B0%D1%88%D0%B0.jpg/274px-%D0%93%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F_%D0%BA%D0%B0%D1%88%D0%B0.jpg" alt ="error"> 
+    <p><em>Source: <a href="https://cookpad.com/ru/recipes/10967197-zharienaia-ghriechka">Some recipes websites</a></em></p>
+    
+    
+
+    
+    </body>
+</html>
