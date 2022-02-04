@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style> 
+        h1 {
+            color: rgb(161, 145, 79);
+        }
+        #about-city-head{
+            color: rgb(152, 179, 46);
+        }
+        
+        .first-words{
+            color: rgb(245, 65, 10);
+        }
+        .places-head{
+            color: rgb(52, 163, 49);
+        }
+        .back-color{
+            background: rgb(231, 240, 238);
+        }
+        </style>
+        </head>
+    <body>
+    
+        <h1>Travel to Almaty</h1>
+        <h3><em>Two must visit places</em></h3>
+        <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Almaty%2C_Kok-tobe_exposition_%28edit%29.jpg/276px-Almaty%2C_Kok-tobe_exposition_%28edit%29.jpg">
+        <h2 id="about-city-head">About the city</h2>
+        
+        
+        <p class = "back-color">
+        <strong class="first-words">Almaty </strong>is the <strong><em>largest city in Kazakhstan</em></strong>, with a population of about <strong>2 million</strong>.It was the capital of Kazakhstan from 1929 to 1997.<br>
+        Almaty is still the major commercial and cultural centre of Kazakhstan, as well as its most populous and <strong>most cosmopolitan city</strong>.
+        </p>
+        <h4 class= "first-words">must visit places: </h4>
+        <ul><p>
+        <li>Medeu
+        <li>Shymbulak
+        
+        </p></ul>
+        
+        <h3 class ="places-head">Medeu</h3>
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Medeobanen1.jpg/800px-Medeobanen1.jpg" width ="200">
+        <p class = "back-color"><strong class = "first-words">The Medeu</strong> (Kazakh: Медеу, Medeu), is an outdoor speed skating and bandy rink. It is located in a mountain valley (Medeu Valley, or the valley of Malaya Almatinka River) on the south-eastern outskirts of Almaty, Kazakhstan. Medeu sits 1,691 metres above sea level. It consists of 10.5 thousand square meters of ice and utilizes a sophisticated freezing and watering system to ensure the quality of the ice.
+        </p>
+        <h3 class= "places-head">Shymbulak</h3>
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Shimbulak1.JPG/250px-Shimbulak1.JPG">
+    
+        <p class = "back-color">
+        <strong calss = "first-words"> Shymbulak</strong> (Kazakh: Şymbūlaq, Cyrillic: Шымбұлақ), also known as Chimbulak (Russian: Чимбулак, Kyrgyz: Чымбулак) is a ski resort near Almaty. It is the <strong>largest ski resort in Central Asia</strong>. It is located in the upper part of the Medeu Valley in the Zailiisky Alatau mountain range, at an elevation of 2,200 metres (7,200 ft) above sea level. The resort area is about 25 kilometres (16 mi) south of Almaty city by Medeo road. It is popular for its mild climate, large quantity of sunny days and great amount of snow through the winter (from November till May).
+        </p>
+    </body>
+</html>
