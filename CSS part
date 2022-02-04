@@ -1,0 +1,32 @@
+First
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        <style>
+            body {
+                background-color: rgb(226, 226, 235);
+                
+            }
+            p {
+                color: rgb(152, 156, 28);
+            }
+            h1{
+                color: rgb(250, 30, 30);
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/cute/EnemyBug.png">
+        
+        <h1>The coolest creature</h1>
+        <h3><strong>is bug!</strong> </h3>
+        <p><strong>Bugs are a type of insect</strong>, which belong to the class Insecta, and they are characterized by three-part bodies, <em>usually two pairs of wings, and three pairs of legs</em>, (e.g., bees and mosquitoes). ... Arthropods (spiders, ticks, centipedes, etc.) is a separate phylum from bugs and insects.</p>
+        <p>The <em></em> is awesome because <strong></strong>.</p>
+        
+    </body>
+</html>
