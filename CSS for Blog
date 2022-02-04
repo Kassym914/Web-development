@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        body{
+            background-color: rgb(204, 196, 204);
+        }
+        h2{
+            font-weight: bold;
+            font-size: 32px;
+            color: red;
+            font-family: Monospace;
+            text-align: center;
+        }
+        p{ 
+            font-family: cursive ;
+            line-height: 17px;
+            font-style: italic;
+        }
+        h6{
+            text-decoration: underline;
+            color: rgb(0, 38, 250);
+        }
+        
+        </style>
+        </head>
+    <body>
+        
+        <h1>Kassym's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href ="#First-post">Monday</a></li>
+            <li><a href="#second-post">Tuesday</a></li>
+        </ul>
+        
+        
+        <h2 id= "First-post">Monday</h2>
+         <p>Today was a hard day.</p>
+        <p> Today i had a lot of work, but the main thing that I had to do was to find a house in Almaty to live during the off-line coures. I've searched whole app, but did not find any normal advertsment. Mostly, my requests were rejected because i am a boy, people think that boys make home more dirty.
+        
+        <h6>03.02.2022</h6>
+        
+       
+       
+               <h2 id= "second-post">Tuesday</h2>
+         <p>Today was a good day.</p>
+        <p> Hello everyone, today I found out that I dont have enough music in my play-list, so i was listening music whole day and found one good song named "Today was a good day" by Ice-Cube</p>
+        
+        <h6>04.02.2022</h6>
+        
+        
+        
+    </body>
+</html>
