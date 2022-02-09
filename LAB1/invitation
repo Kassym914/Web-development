@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body{
+            background-color: rgb(255, 220, 156);
+        }
+        .heading{
+            text-align: center;
+            position:relative;
+            color: rgb(8, 74, 84
+            );
+            font-family: sans-serif, "Helvetica Neue", "Lucida Grande";
+            font-style: italic;
+            font-size: 35px;
+            
+        }
+        .event{
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(138, 88, 101);
+        }
+        .dress{
+            position: absolute;
+            border: 3px ridge rgb(138, 126, 138) ;
+            margin-bottom: 15px ; 
+            margin-right: 6px;
+            font-size: 11px;
+            font-family: cursive;
+            color: rgb(49, 69, 29);
+            padding-left: 5px;
+            padding-right: 6px;
+            top: 350px;
+        }
+        .dear{ 
+            
+            font-size: 15px ;
+            border: 2px dashed rgb(222, 222, 222);
+            margin: both;
+        }
+        .yours{
+            position: absolute;
+            top:200px ;
+            font-size: 15px;
+            color: rgb(104, 153, 108);
+            border: 2px dashed rgb(125, 107, 125);
+            padding: 2px;
+            margin-top: 8px;
+            }
+            
+            
+        .picture{
+            width:200px;
+            height: 225px;
+            position: absolute;
+            left: 200px;
+            border: 10px ridge ;
+            z-index:1 ;
+            
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+        
+        <h1 class ="heading">Dear Friend!</h1>
+        <h2 class= "event">I am inviting you to my birthday!</h2>
+        
+        <div class="dear"><p>Dear Sanzhar!<br>
+        I will be very happy to see you on my 21's birthday party . Hope, you will find a time and desire to be next to me on this memorable ivent.
+         
+        </p>
+        </div >
+        <div class = "yours">
+        <p>Sincerely Yours <br>
+        Kassym Orakbay!
+        </p>
+        
+        
+        <p>data: 14.02.2022 <br>
+        place: KBTU
+        </p>
+        </div>
+        
+        <div class ="dress"><h4>allowed dress styles: </h4>
+        <ul>
+            <li>the Great Gatsby</li>
+            <li>
+            America-1970's
+            </li>
+                        <li>
+            Europe-17's century 
+            </li>
+        </ul>
+        </div>
+        <img class="picture" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Saturday_Evening_Post_cover_2-4-1922.jpg">
+    </body>
+</html>
