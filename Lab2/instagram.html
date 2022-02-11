@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instagram</title>
+    <style>
+        body{
+            background-color: rgb(250,250,250);
+        }
+        #login{
+        width: 350px;
+        height: 380px;
+        background-color: white;
+        border-color: rgb(219, 216, 216);
+        position: absolute;
+        top:120px;
+        right: 250px;
+        border-radius: 3px;
+        border: 1px solid rgb(219, 216, 216);
+        }
+        h1{
+            font-family: Brush Script;
+            
+        }
+        input{
+            width: 268px;
+            height: 38px;
+            border-radius: 3px;
+            left: 41px;
+            position: absolute;
+            border-width: 1px;
+            border-color: rgb(197, 197, 197);
+        }
+        #in1{
+            padding-left: 5px;
+            top: 117px;
+        }
+        #in2{
+            top:165px;
+            padding-left: 5px;
+        }
+        button{
+            width:268px;
+            height:30px;
+            position: absolute;
+            top: 217px;
+            left: 44px;
+            color: white;
+            border-radius: 3px;
+            background-color: rgb(178,223,252);
+            font-weight: bold;
+            border: none;
+        }
+        #or{
+            position: absolute;
+            top: 255px;
+            right: 161px;
+            font-size: 18px;
+            font-family: sans-serif;
+            color: rgb(165, 160, 160);
+        }
+        #line1{
+            position: absolute;
+            left: 44px;
+            top:250px;
+            color: rgb(165, 160, 160);
+        }
+        #line2{
+            position: absolute;
+            top: 250px;
+            right: 44px;
+            color: rgb(165, 160, 160);
+        }
+        .link1{
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            position: absolute;
+            top: 310px;
+            left: 25%;
+            color: rgb(33, 77, 180);
+        }
+        .link2{
+            font-family: sans-serif;
+            font-size: 12px;
+            text-decoration: none;
+            position: absolute;
+            top: 340px;
+            left: 35%;
+            color: rgb(32, 34, 39);
+        }
+        #registration{
+            width:350px;
+            height: 62px;
+            background-color: white;
+            border-radius: 3px;
+            font-size: 14px;
+            position: absolute;
+            right: 250px;
+            top: 510px;
+            border: 1px solid rgb(219, 216, 216);
+        }
+        .ques{
+            position: absolute;
+            left: 27px;
+            top: 10px;
+            
+        }
+        #link3{
+            font-weight: bold;
+            font-family: sans-serif;
+            text-decoration: none;
+            position: absolute;
+            color: rgb(76, 109, 192);
+            top:23px;
+            right: 10px
+        }
+        #mobile{
+            width:350px;
+            height: 102px;
+            font-family: sans-serif;
+            font-size: 18px;
+            position: absolute;
+            right: 250px;
+            top: 600px;
+        }
+        #img1{
+            position: absolute;
+            top:50%;
+            left: 10%;
+            width: 138px
+        }
+        #img2{
+            position: absolute;
+            top:50%;
+            width: 138px;
+            left:50%;
+        }
+        #download{
+            position: absolute;
+            left: 20% ;
+        }
+        img{
+            width: 420px;
+            position: absolute;
+            top: 90px;
+            left: 500px;
+        }
+        #ints{
+            position: absolute;
+            left: 25%;
+            top:20px;
+            font-size: 38px;
+            font-family: serif;
+            font-style: Georgia; 
+        }
+        .photo{
+            width: 400px;
+            left: 300px; 
+        }
+        .footer {
+            position: absolute;
+            bottom: -200px;
+            padding-left: 250px;
+            padding-top: 120px;
+            padding-right: 560px;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div id = "login">
+        <h1 id = "ints">Instagram</h1>
+        <input id="in1" type="text" placeholder = "Номер, имя пользователся или эл. адрес">
+        <input id="in2" type="text" placeholder = "Пароль">
+        <button>Войти</button>
+        <p id = "or" >или</p>
+        <p id ="line1">____________</p>    <p id = "line2">____________</p>
+        <a href="" class = "link1">Войти через Facebook</a>
+        <a href="" class="link2">Забыли пароль?</a>
+    </div>
+
+    <div id="registration">
+        <p class = "ques">У вас все еще нет аккаунта?</p>
+        <a href="" id="link3">Зарегистрироваться</a>
+    </div>
+
+    <div id="mobile" >
+        <p id="download">Установите приложение.</p>
+        <img id = "img1" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_russian-ru.png/4c70948c09f3.png" alt="" href ="">
+        <img id = "img2" src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_russian-ru.png/bfba6d0fd6bd.png" alt="" href ="">
+    </div>
+    <img class= "photo"src="img/phone.png" alt="">
+    
+
+
+    <div class ="footer"> 
+        <p class="footer-text">
+        Meta Информация    Блог    Вакансии    Помощь    API    Конфиденциальность    Условия    Популярные аккаунты    Хэштеги    Места    
+       Красота    Танцы и выступления    Фитнес    Еда и напитки    Дом и сад    Музыка    Изобразительное искусство
+   </p>
+   <p class="footer-text">Русский &nbsp;&nbsp;&nbsp;&nbsp; © Instagram от Facebook, 2021</p>
+    
+</div>
+    
+</body>
+</html>
